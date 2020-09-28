@@ -431,3 +431,75 @@ article h2{
 	font-size: 16px;
 	color: rgba(255, 255, 255, 0.8);
 }
+@media(max-width:768px){
+  .car-wrapper{
+    display: block;
+    justify-content: space-around;
+    width: 80%;
+}
+.description-item{
+  display: block;
+  justify-content: space-between;
+  margin-bottom:50px ;
+}
+figure{
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 auto;
+}
+
+article{
+  width: 100%;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: rgb(127, 90, 131, 0.1);
+  background-image: linear-gradient(315deg, rgb(127, 90, 131, 0.3) 0%, rgba(0, 0, 0, 0.3) 74%);
+}
+
+.top-text{
+  text-align: center;
+  width: 75%;
+  margin: 0 auto 60px;
+  color: #d7b5ab;
+}
+
+.top-text p{
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.top-text h1{
+  font-size: 1.5rem;
+
+}
+.booking-cta{
+
+  padding: 30px;
+  text-align: center;
+
+}
+
+.booking-cta h1{
+  font-size: 2rem;
+  text-align: center;
+}
+.booking-cta p{
+  line-height: 2;
+}
+.booking-form{
+  width: 70%;
+  margin: 0 auto;
+}
+}
+
+@media(max-width:550px){
+main{
+  margin-top: 100px;
+}
+
+#booking{
+  margin: 0 auto;
+}
+}
